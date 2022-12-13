@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Űrlap ellenőrzése</h1>
+        <form action="" id="form">
+            <table>
+                <tr>
+                    <td><label for="nev">Név:</label></td>
+                    <td><input type="text" name="nev" id="nev"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="email">Email: </label></td>
+                    <td><input type="email" name="email" id="email"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="telefonszam">Telefonszám: </label>:</td>
+                    <td><input type="tel" name="telefonszam" id="telefonszam"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="jelszo">Jelszó: </label></td>
+                    <td><input type="password" name="jelszo" id="jelszo"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="jelszoujra">Jelszó mégegyszer: </label></td>
+                    <td><input type="password" name="jelszoujra" id="jelszoujra"></td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Elküldés" id="gomb" onclick="formCheck()"><input type="reset" value="Törlés" id="gomb2"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

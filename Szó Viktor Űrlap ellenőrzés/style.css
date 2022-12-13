@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    box-shadow: 2px 5px;
+}
+tr td {
+    
+}
+
+#gomb {
+    margin-right: 10px;
+}
