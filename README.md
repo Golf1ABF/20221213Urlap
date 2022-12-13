@@ -1,4 +1,4 @@
 # 20221213Urlap
 Űrlap ellenőrzés
 http://latizainformatika.blogspot.com/
-Szuper! Köszönöm!
+* Szuper! Köszönöm!
